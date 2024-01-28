@@ -1,3 +1,7 @@
+% cleaning up
+close all
+clear
+
 n=1028;
 p=pi;
 [R,T]=ndgrid(linspace(0,1,n),linspace(-2,20*p,n));
